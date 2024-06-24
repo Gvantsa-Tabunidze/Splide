@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>slider</title>
+<!-- This is Eric Meyer's reset -->
+<link rel="stylesheet" href="css-reset.css">
+
+<!-- This is my own stylesheet -->
+<link rel="stylesheet" href="stylesheet.css">
+
+<!-- splide css -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+ <!-- splide script -->
+ <script src = "https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+<!-- Font-awesome kit -->
+<script src="https://kit.fontawesome.com/ed83a1faf6.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+
+  <section>
+    <div class="slider-wrapper">
+
+
+      <button class="arrow-left" id="arrow-left">
+        <span class="slider-arrow">
+        <i class="fa-solid fa-arrow-left fa-lg"></i>
+      </span>
+    </button>
+
+
+      <button class="arrow-right" id="arrow-right">
+        <span class="slider-arrow">
+          <i class="fa-solid fa-arrow-right fa-lg"></i>
+        </span>
+      </button>
+
+      
+
+
+    <div class="slider-content" id="slider-content">
+
+    </div>
+
+    </div>
+  </section>
+
+    <!-- <h1>Splide JS</h1> -->
+
+<!-- Splide slider -->
+
+
+  <div id="main-slider" class="splide">
+    <div class="splide__track">
+      <ul class="splide__list">
+        <li class="splide__slide">
+          <img src="imgs/bees on comb.jpg" />
+        </li>
+        <li class="splide__slide">
+          <img src="imgs/honey snacks.jpg" />
+        </li>
+        <li class="splide__slide">
+          <img src="imgs/honey spoon.jpg" />
+        </li>
+        <li class="splide__slide">
+          <img src="imgs/honey tee.jpg" />
+        </li>
+      </ul>
+    </div>
+  </div>
+  
+  <ul id="thumbnails" class="thumbnails">
+    <li class="thumbnail">
+      <img src="imgs/bees on comb.jpg" />
+    </li>
+    <li class="thumbnail">
+      <img src="imgs/honey snacks.jpg" />
+    </li>
+    <li class="thumbnail">
+      <img src="imgs/honey spoon.jpg" />
+    </li>
+    <li class="thumbnail">
+      <img src="imgs/honey tee.jpg" />
+    </li>
+  </ul>
+
+
+
+
+
+  <script src="scripty.js" ></script>
+  
+</body>
+
+</html>
